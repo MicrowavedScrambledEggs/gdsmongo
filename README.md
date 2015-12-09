@@ -12,7 +12,7 @@ $ manage.py runserver [ip address with port]
 
 Allows for searching by experiment name, primary investigator and date created. Displays table of matching results, with links in each row to the relavant datasource table and a download link for the data.
 
-On start up, syncs local db with http://10.1.8.167:8000/report/experiment/csv/.
+On start up, syncs local db with http://10.1.8.167:8000/report/experiment/csv/
 
 Datasource table got from querying via url: "http://10.1.8.167:8000/report/data_source/csv/?experiment=" + experiment_name
 
